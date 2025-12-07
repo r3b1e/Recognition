@@ -1,0 +1,15 @@
+  @import "tailwindcss";
+
+  /* App.css */
+:root {
+  --dark-bg: rgb(32, 33, 39);
+  --darker-bg: rgb(26, 27, 33);
+  --card-bg: rgb(38, 40, 48);
+  --accent: rgb(24, 239, 199);
+  --accent-hover: rgb(20, 210, 175);
+  --text: rgb(230, 230, 230);
+  --text-secondary: rgb(180, 180, 180);
+  --increasing: rgb(46, 213, 115);
+  --decreasing: rgb(255, 71, 87);
+  --stable: rgb(54, 162, 235);
+}
