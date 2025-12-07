@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from './ui/button';
+import { Button } from './ui/Button';
 import { Card, CardContent } from './ui/Card'; // Fixed import path
 import { Apple, Heart, Zap, Target, Users, Award } from 'lucide-react';
 
