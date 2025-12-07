@@ -4,6 +4,7 @@ import { generateNutritionAdvice } from "./utils/nutritionRules";
 import Landing from './Components/Loading';
 import Quiz from './Components/Quiz';
 import Results from './Components/Results';
+import MultiFoodNutritionTracker from './Components/MultiFoodNutritionTracker';
 
 const AppContent = () => {
   const [currentView, setCurrentView] = useState('landing');
@@ -32,7 +33,7 @@ const AppContent = () => {
 
   switch (currentView) {
     case 'landing':
-      return <Landing onStartQuiz={handleStartQuiz} />;
+      return <MultiFoodNutritionTracker />;
     
     case 'quiz':
       return <Quiz onComplete={handleQuizComplete} onBack={handleBackToHome} />;
